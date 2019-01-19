@@ -1,0 +1,64 @@
+body {
+    margin: 0px;
+    background: #eee;
+  }
+  
+  
+  
+  header {
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+    overflow: hidden;
+  }
+  
+  #header-inner {
+    margin: auto;
+    width: 960px;
+  }
+  
+  #mainlogoboxed {
+    float: left;
+    background: red;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 20pt;
+    font-weight: bold;
+  }
+  
+  #links {
+    float: right;
+    margin-top: 20px;
+  }
+  
+  #links a:not(:last-child) {
+    margin-right: 15px;
+  }
+  
+  #links a {
+    color: #aaa;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  
+  #mainsection {
+    border: 1px solid #ddd;
+    margin: auto; 
+    width: 920px;
+    background: #fff;
+    margin-top: 20px;
+    padding: 20px;
+  }
+  
+  #mainsection h2 {
+    color: green;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 15px;
+    margin: 0px;
+    margin-bottom: 30px;
+  }
+  
+  #mainsection img {
+    width: 200px;
+    float: left;
+    margin-right: 15px;
+  }
